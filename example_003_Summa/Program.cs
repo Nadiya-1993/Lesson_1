@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int numA = 3;
-int numB = 33;
+int numA = new Random().Next(1, 10);
+Console.WriteLine(numA);
+int numB = new Random().Next(1, 20);
+Console.WriteLine(numB);
 int result = numA + numB;
 Console.WriteLine(result); 
 // Данное решение можно осуществить сложением двух переменных, 
